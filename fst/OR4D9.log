@@ -1,0 +1,22 @@
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--vcf ./fst/OR4D9.recode.vcf
+	--fst-window-size 50
+	--fst-window-step 20
+	--weir-fst-pop M.aspalax
+	--weir-fst-pop M.psilurus
+	--keep M.aspalax
+	--keep M.psilurus
+	--out ./fst/OR4D9
+
+Warning: Expected at least 2 parts in INFO entry: ID=PR,Number=0,Type=Flag,Description="Provisional reference allele, may not be based on real reference genome">
+Keeping individuals in 'keep' list
+After filtering, kept 27 out of 27 Individuals
+Outputting Windowed Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.38357
+Weir and Cockerham weighted Fst estimate: 0.70973
+After filtering, kept 65 out of a possible 65 Sites
+Run Time = 1.00 seconds
